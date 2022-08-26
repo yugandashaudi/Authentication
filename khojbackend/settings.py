@@ -128,8 +128,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    'https://localhost:18118',
-    'https://localhost:8000'
+    'http://localhost:18118',
+    'http://localhost:8000'
 ]
 
 # Static files (CSS, JavaScript, Images)
