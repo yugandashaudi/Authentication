@@ -127,11 +127,10 @@ REST_FRAMEWORK = {
     
 }
 
-
-CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = (
-  'http://localhost:18118',
-)
+CORS_ALLOWED_ORIGINS = [
+    'https://localhost:18118',
+    'https://localhost:8000'
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
